@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Techical Documentation</title>
+</head>
+<body>
+    <main id="main-doc">
+
+        <nav id="navbar">
+          <header>
+            <h1>Elekrotechnikai ismeretek</h1>
+          </header>
+          <ul class="nav-links">
+            <li><a href="#Az_anyag_szerkezete">Az anyag szerkezete</a></li>
+            <li><a href="#A_villamos_tér">A villamos tér</a></li>
+            <li><a href="#A_feszültség">A feszültség</a></li>
+            <li><a href="#Az_elektromos_áram">Az elektromos áram</a></li>
+            <li><a href="#Ellenállás_és_vezetés">Ellenállás és vezetés</a></li>
+            <li><a href="#Az_egyszerű_áramkör">Az egyszerű áramkör</a></li>
+            <li><a href="#Ohm_törvénye">Ohm törvénye</a></li>
+            <li><a href="#Ajánlott_irodalom">Ajánlott irodalom</a></li>
+          </ul>
+        </nav>
+        
+        <section class="main-section" id="Az_anyag_szerkezete">
+        <header>
+          <h2>Az anyag szerkezete</h2>
+        </header>
+          <article>
+          <p>Az anyag legkisebb építőeleme az atom. A magban protonokat és neutronokat, míg az burokban
+      elektronokat találunk.
+      A protonok pozitív, a
+      neutronok semleges, míg
+      az elektronok negatív
+      töltéssel rendelkeznek.
+      A proton és az elektron
+      elektromos kölcsönhatásra
+      képes. Ez a kölcsönhatás
+      általában erőként nyilvánul
+      meg</p>
+            <p><img src="data:image/jpeg;base64,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" alt="Atom"></p>
+            </article>
+      </section>
+      <section class="main-section" id="A_villamos_tér">
+        <header>
+          <h2>A villamos tér</h2>
+        </header>
+        <article>
+        <p>Az atom alaphelyzetben
+      semleges. Ebben az állapotában, az atommagban a protonok és az elektronburokban az elektronok száma
+      azonos.</p>
+        <p>Ez az állapot azonban megváltoztatható. Egy atomról, vagy testről viszonylag könnyen áttehető elektron.
+      Ez a folyamat a töltésszétválasztás. A töltésszétválasztáshoz energia szükséges!</p>
+        <p>Minden olyan test közelében, melyben a protonok és az elektronok száma nem azonos – a test
+      elektromosan töltött – elektromos kölcsönhatás tapasztalható. A térnek azt a részét, ahol ez a kölcsönhatás
+      kimutatható, villamos térnek, vagy elektromos mezőnek nevezzük</p>
+        <p>Az egynemű töltések taszítják, míg a különneműek vonzzák egymást.
+      Köztük az erőhatás mindig olyan irányú, hogy a korábban szétválasztott töltéseket egyesíteni akarja.
+      A proton és az elektron elemi töltés, mert ennél kisebb töltés nincs. Minden elektromos töltés ennek
+      egész számú többszöröse.
+      Az elemi töltés jele q</p>
+        <p><code>Qelektron=q=-1,6*10.19As</code></p>
+          </article>
+      </section>
+      <section class="main-section" id="A_feszültség">
+        <header>
+          <h2>A feszültség</h2>
+        </header>
+        <article>
+        <p>A feszültség a kiegyenlítődő töltések által végzett munka és a kiegyenlítődő töltések mennyiségének A feszültség jele U mértékegysége V (volt).
+      Ha a munkavégző képességet egy kitüntetett ponthoz viszonyítjuk (ilyen a végtelen, vagy a föld),
+      potenciálról beszélünk. A tér valamely két pontja között a feszültséget a két pont potenciáljának a
+      különbsége adja, vagyis a feszültség potenciálkülönbség.</p>
+        <p><code>U=WAB/Q</code></p>
+          </article>
+      </section>
+      <section class="main-section" id="Az_eletromos_áram">
+        <header>
+          <h2>Az elektromos áram</h2>
+        </header>
+        <article>
+        <p>A szabad töltések egyirányú mozgását (áramlását) elektromos áramnak nevezzük. <code>I=Q/t</code></p>
+        <p>Az áram jele I mértékegysége A (amper)
+      1 A erősségű az áram, ha As töltés áramlik át 1s alatt</p>
+          </article>
+      </section>
+        
+      <section class="main-section" id="Ellenállás_és_vezetés">
+        <header>
+          <h2>Ellenállás és vezetés</h2>
+        </header>
+        <article>
+        <ul>
+          <li>Vezetés <p>elektromos áram – csak olyan anyagokban lehetséges, melyekben szabad töltéshordozók
+      vannak.
+      A szabad töltéshordozók számától függően az anyagok lehetnek: vezetők, félvezetők és szigetelők</p></li>
+          <li>Ellenállás <p> anyagi tulajdonság, mely megmutatja, hogy az adott anyag milyen mértékben akadályozza a
+      töltéshordozók áramlását, az áramot.
+      1Ω ellenállása van annak az anyagnak, amelyben 1V feszültség hatására 1A áram folyik.
+      Az ellenállás (rezisztencia) jele R mértékegysége V/A = Ω (ohm)
+      </p></li>
+          <li>Vezetőképesség <p>- az anyagot úgy is jellemezhetjük, hogy jól vagy rosszul vezeti az áramot. Az anyagnak
+      ezt a tulajdonságát nevezzük vezetőképességnek.
+      A vezetőképesség jele G mértékegysége 1/ Ω = S (szímensz). Az 1 Ω ellenállású anyag vezetőképessége 1S.</p></li>
+          <li>Szigetelők <p>Ezekben az anyagokban kevés szabad elektron van, így a vezetőképességük kicsi.
+      Szigetelő anyagnak tekinthetők a gázok, az olajok, a szilárd halmazállapotúak közül az üveg, a kerámiák, a
+      csillám, a műanyagok stb. </p></li>
+          <li>Félvezetők <p>anyaga gyengén vezet, fajlagos vezetőképessége azonban a szigetelőknél több
+      nagyságrenddel nagyobb.
+      Félvezető tulajdonságokkal rendelkezik a nagy tisztaságú germánium (Ge), szilícium (Si), szelén (Se),
+      valamint néhány vegyület, pl. a galliumarzenid (GaAs) </p></li>
+          <li>Vezetők <p>a vezető anyagok kristályos szerkezetűek, bennük az atomok nagyon közel vannak egymáshoz,
+      ezért szomszédos atomok közösen használják valencia elektronjaikat.
+      Jó vezetők a fémek, és a grafit.</p></li>
+        </ul>
+          </article>
+      </section>
+        <section class="main-section" id="Az_egyszerű_áramkör">
+          <header>
+            <h2>Az egyszerű áramkör</h2>
+          </header>
+          <article>
+          <ul>
+            <li>Az áramkör <p>A töltésáramlás – a villamos áram – csak akkor maradhat fenn, ha a töltéshordozóknak az ütközések során
+      elvesző energiáját pótoljuk. Gyakorlatban ezt egy, a töltések folyamatos újra szétválasztását végző ún.
+      generátorral végezzük. A generátor általános feszültségforrás, energia átalakító, mely a belefektetett
+      mechanikai, hő, vegyi stb. munkát villamos energiává alakítja.
+      A generátor kivezetései kapcsoknak vagy pólusoknak nevezzük.
+      </p></li>
+            <li>Az áramkör felépítése: <code>Mechanikai hő, vegyi stb. energia -> Generátor -> Fogyasztó -> Mechanikai hő, vegyi stb. energia</code>
+              <img src="http://centroszet.hu/tananyag/elektro_new/009.jpg" alt="Áramkör">
+            </li>
+            <li>Az áramkör elvi jelölése és egy valós áramkör: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmiUAV3kjod68oCmPG_dGuWigKGtABuimNCg&usqp=CAU" alt="Valós áramkör"></li>
+            <li>Gyakorlatban sokféle generátort használunk, és legfontosabb tulajdonságát rajzjelével is kifejezzük</li>
+          </ul>
+          </article>
+        </section>
+        <section class="main-section" id="Ohm_törvénye">
+          <h2>Ohm törvénye</h2>
+          <article>
+          <p>A generátor feszültsége, valamint a fogyasztó ellenállása az áramkörbe kapcsoláskor adott. Az áram, mint
+      következmény ezek függvénye.
+      Az Ohm törvény kimondja, hogy a zárt áramkőrben az áramerősség egyenesen arányos a
+      fogyasztóra ható feszültséggel, és fordítottan a fogyasztó ellenállásával.</p>
+          <p><code>I=U/R</code> Az összefüggés más alakban is felírható: <code>R=U/I</code> vagy <code>U=I*R</code></p>
+          <p>Az Ohm törvény az elektronikában csak megkötésekkel érvényes, mert sok alkatrész ellenállása
+      feszültségfüggő, másrészt vannak olyan alkatrészek is pl. kondenzátor, induktivitás, melyek esetében az
+      Ohm törvény ugyan érvénye, de az áramkorlátozó hatást nem a töltéshordozóknak a közeg atomjaival
+      történő ütközése - rezisztencia – hanem más kölcsönhatás határozza meg.</p>
+            </article>
+        </section>
+      <section class="main-section" id="Ajánlott_irodalom">
+        <header>
+          <h2>Ajánlott irodalom</h2>
+        </header>
+        <article>
+        <p>Nyomtatott szakirodalom:
+        <ul>
+          <li>Dienes László – Kliment Tibor, Villanyszerelő szakmai ismeretek I. II. III</li>
+          <li>Hámory Albert, Villanyszerelés</li>
+          <li>Schneider Electric, Épületvillamossági kézikönyv 2007</li>
+          <li>Seyr-Rösch, villanyszerelés villámvédelem világítástechnika</li>
+        </ul>
+          
+        </p>
+        <p>Szabványok:
+      <ul>
+        <li>MSZ447:1998, MSZ447/1M:2002 Kisfeszültségű, közcélú elosztóhálózatra csatlakozás</li>
+        <li>MSZ172 Érintésvédelmi szabályzat</li>
+        <li>MSZ1600 Létesítési biztonsági szabályzat 1000V-nál nem nagyobb feszültségű villamos
+      berendezések számára</li>
+        <li>MSZ2364 Épületek villamos berendezéseinek létesítése</li>
+        <li>MSZ1815 Erősáramú üzemi szabályzat</li>
+        <li>KLÉSZ Kommunális és Lakóépületek Érintésvédelmi Szabályzata</li>
+        <li>VBSZ Villamos Biztonsági Szabályza</li>
+      </ul></p>
+        <p>Elektronikus szakirodalom, és adatlapok:
+      <ul>
+        <li>http://www.ganzkk.hu , Ganz Kapcsoló- és Készülékgyártó Kft</li>
+        <li> http://www.villanyszaklap.hu</li>
+        <li>http://www.legrand.hu, Legrand Zrt., XL PRO 2 elosztószekrény tervező program
+      </li>
+        <li>http://www.schneider-electric.hu</li>
+        <li>http://www.abb.hu</li>
+        <li>http://www.siemns.hu</li>
+      </ul></p>
+      </article>
+      </section>
+      </main>
+</body>
+</html>
